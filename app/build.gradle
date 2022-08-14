@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.realityexpander.sharedviewmodelfragment'
+    namespace 'com.realityexpander.viewlifecycleownerdemo'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.realityexpander.sharedviewmodelfragment"
+        applicationId "com.realityexpander.viewlifecycleownerdemo"
         minSdk 21
         targetSdk 32
         versionCode 1

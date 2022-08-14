@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.realityexpander.sharedviewmodelfragment.R
-import com.realityexpander.sharedviewmodelfragment.databinding.FragmentSecondBinding
+import com.realityexpander.viewlifecycleownerdemo.R
+import com.realityexpander.viewlifecycleownerdemo.databinding.FragmentSecondBinding
 
 /**
  * A simple [Fragment] subclass.

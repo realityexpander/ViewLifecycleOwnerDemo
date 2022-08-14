@@ -27,15 +27,6 @@ class MainActivity : AppCompatActivity() {
         val viewModel = ViewModelProvider(this, mainViewModelFactory)
             .get(MainViewModel::class.java)
 
-
-        // this is the old way (doesn't work with <FragmentContainerView>, works with simple <fragment>)
-//        navController = findNavController(R.id.navHostFragment)
-
-        // kind of messy, but works
-//        val navHostFragment =
-//            supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
-//        navController = navHostFragment.navController
-
         // Google recommended way using viewBinding
         navController = binding.navHostFragment.getFragment<NavHostFragment>().navController
 
